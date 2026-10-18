@@ -1,0 +1,10 @@
+# Python virtual environment
+.venv/
+
+# Windows download metadata files
+*:Zone.Identifier
+*Zone.Identifier
+
+# Jupyter / Python temporary files
+.ipynb_checkpoints/
+__pycache__/
