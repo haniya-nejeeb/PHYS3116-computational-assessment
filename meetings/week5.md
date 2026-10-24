@@ -19,7 +19,7 @@
 2. Plan work for the next two weeks before the Week 7 deadline
 
 ## Notes
-- Haniya was not given collaborator access to the repo created by Deagan and no response from him, so a new one was created today. Due to lack of communication, it was found out later that he had not pushed any work into his repo either giving the idea of no work being done so currently there are 2 repos with separate work done by team members. Will be comparing the two and collating the work done to use one repo instead after access has been given to Haniya.
+- Haniya was not given collaborator access to the repo created by Deagan and no response from him, so a new one was created today. Due to lack of communication, it was found out later that he had not pushed any work into his repo either so currently there are 2 repos with separate work done by team members. Will be comparing the two and collating the work done to use one repo instead after access has been given to Haniya.
 
 - Option 2, the Faber-Jackson relation in SAMI DR3. Research questions are written in the README.
 
