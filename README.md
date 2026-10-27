@@ -26,11 +26,31 @@ Reformatted SAMI DR3 tables from Moodle, in `data/`:
 ## Repository layout
 
 ```
-data/          raw SAMI DR3 csv tables
-meetings/      weekly meeting agenda, notes, attendance and action items
+data/              raw SAMI DR3 csv tables
+data/processed/    merged table, selection log, final samples and fit results
+notebooks/         analysis notebooks (see notebooks/README.md)
+figures/           all saved figures
+docs/              data curation and results/discussion write-ups
+meetings/          weekly meeting agenda, notes, attendance and action items
+results/           outputs of Deagan's original standalone notebook (kept for the record)
 ```
 
-More folders (notebooks, figures, docs) are added as the project progresses.
+## Notebooks (run in this order)
+
+| Notebook | What it does |
+|---|---|
+| `01_load_and_merge.ipynb` | Combines the GAMA and Cluster input catalogues with the kinematics and morphology tables, keeping one cube per galaxy (3,068 galaxies) |
+| `02_sample_selection.ipynb` | Applies the quality cuts one at a time and logs why each galaxy was removed, giving 768 early types and 1,109 spirals |
+| `03_fj_fitting.ipynb` | Fits the FJ relation (luminosity and stellar-mass forms), compares fit directions and morphological types, and compares with the literature |
+| `04_extensions.ipynb` | Tests what changes the slope: dispersion range and selection bias, environment, slow vs fast rotators |
+| `SAMI_Extra_Investigations.ipynb` | Aperture comparison, virial size illustration, mass-scale sensitivity and residuals |
+
+## Main results
+
+- 768 early-type galaxies: **L ∝ σ^1.88±0.05** (forward fit) to **σ^2.84±0.07** (inverse fit), below the classic n ≈ 4.
+- The relation is steeper for high-σ galaxies and slow rotators, and cluster early types are fainter at fixed σ but have the same stellar mass (higher mass-to-light ratio).
+- Full write-up: `docs/results_discussion.md`. 
+- Sample selection: `docs/data_curation.md`.
 
 ## How to run
 
