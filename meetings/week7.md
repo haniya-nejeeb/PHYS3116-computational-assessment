@@ -1,9 +1,15 @@
 # Week 7 Team Meeting
 
-## Team members
+**Date:** 27 October 2026
+**Duration:** 15 minutes
+**Format:** Online
 
-- Haniya Nejeeb
-- Deagan Marchant
+## Attendance
+
+| Name | Present? | Notes |
+|---|---|---|
+| Haniya Nejeeb | Present | |
+| Deagan Marchant | Present | |
 
 ## Agenda
 
